@@ -61,7 +61,7 @@ nav ul li a:hover {
       rgba(7, 90, 174, 0) 0%,
       var(--bg-color) 100%
     ),
-    url("/images/bg-banner.jpg");
+    url("../images/bg-banner.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -242,7 +242,7 @@ hr {
       rgba(7, 90, 174, 0) 0%,
       var(--bg-color) 100%
     ),
-    url("/images/bg-testimonial.jpg");
+    url("../images/bg-testimonial.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -340,7 +340,7 @@ hr {
       rgba(7, 90, 174, 0) 0%,
       var(--bg-color) 100%
     ),
-    url("/images/bg-img.jpg");
+    url("../images/bg-img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
