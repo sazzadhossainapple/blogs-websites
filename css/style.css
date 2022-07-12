@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+
 :root {
   --bg-color: #075aae;
   --bg-varient-color1: #f4f6f6;
@@ -588,4 +589,164 @@ textarea {
   cursor: pointer;
   border-radius: 0;
   margin-top: 10px;
+}
+
+/* mobile resposive */
+@media screen and (max-width: 600px) {
+  * {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    padding: 15px 20px;
+    align-items: center;
+    margin: 0;
+  }
+  nav img {
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    padding-left: 60px;
+  }
+  nav ul li a {
+    display: none;
+  }
+
+  .banner-container {
+    padding: 100px 30px;
+    background-image: linear-gradient(
+        to right,
+        rgba(7, 90, 174, 0.674) 100%,
+        var(--bg-color) 100%
+      ),
+      url("../images/bg-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text-right > h1 {
+    font-size: 40px;
+  }
+  .banner-container .text-left {
+    width: 0%;
+  }
+  .banner-container .text-right {
+    width: 100%;
+    padding: 0 0;
+  }
+  .featured-container {
+    padding: 20px 30px;
+    margin-bottom: 0;
+  }
+  .featured-img {
+    padding: 0;
+  }
+  .do-container {
+    padding: 20px 30px;
+    margin: 0;
+  }
+  .do-text {
+    padding: 0;
+  }
+  .crad-wrapper {
+    flex-direction: column;
+  }
+  .card-wapper-2 {
+    flex-direction: column;
+    padding: 0;
+  }
+  .card2 {
+    padding: 70px 50px;
+  }
+  .iner-card1 {
+    display: none;
+  }
+  .testimonial-container {
+    padding: 20px 30px;
+    margin: 30px 0 0 0;
+  }
+  .testimonial-wrapper {
+    flex-direction: column;
+  }
+  .story-container {
+    padding: 40px 30px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .help-container {
+    padding: 40px 30px;
+  }
+  .footer-container {
+    padding: 20px 30px;
+  }
+  .about-page__banner {
+    padding: 150px 30px;
+  }
+  .about-page__banner > h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .aboutPage-container {
+    padding: 20px 30px;
+    margin: 30px 0;
+  }
+  .aboutPage-warpper1 {
+    padding: 0;
+    flex-direction: column;
+    margin: 0;
+  }
+  .aboutPage-left {
+    margin: 0;
+    padding: 0;
+  }
+  .aboutPage-right {
+    margin: 0;
+  }
+  .aboutPage-text2 {
+    margin: 0;
+  }
+  .aboutPage-right__text {
+    margin-top: 20px;
+  }
+  .aboutPage-warpper2 {
+    padding: 0;
+    flex-direction: column;
+    margin: 0;
+    gap: 10px;
+  }
+  .education-wrappers {
+    flex-direction: column;
+    padding: 0;
+  }
+  .education-img img {
+    height: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  .education-left {
+    width: auto;
+  }
+  .education-right {
+    width: auto;
+  }
+  .blogs-container {
+    padding: 70px 30px;
+    margin: 0;
+  }
+  .bolgs-text {
+    padding: 0;
+  }
+  .blogs-card {
+    flex-direction: column;
+  }
+  .contact-container {
+    padding: 70px 30px;
+    margin: 0;
+    flex-direction: column;
+    gap: 60px;
+  }
 }
